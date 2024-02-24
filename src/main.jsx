@@ -9,6 +9,12 @@ const colors = {
     800: "#153e75",
     700: "#2a69ac",
   },
+  red: {
+    500: "#E53E3E",
+  },
+  black: {
+    500: "#000000",
+  },
 };
 
 const theme = extendTheme({ colors });
@@ -18,5 +24,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ChakraProvider theme={theme}>
       <App />
     </ChakraProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

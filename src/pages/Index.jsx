@@ -97,10 +97,10 @@ const Index = () => {
           <Input type="password" placeholder="Enter your password" onChange={(e) => setPassword(e.target.value)} />
         </FormControl>
         <Box d="flex" justifyContent="space-between" w="100%">
-          <Button leftIcon={<FaSignInAlt />} colorScheme="teal" onClick={handleLogin}>
+          <Button leftIcon={<FaSignInAlt />} colorScheme="red" onClick={handleLogin}>
             Login
           </Button>
-          <Button leftIcon={<FaUserPlus />} colorScheme="orange" onClick={handleSignup}>
+          <Button leftIcon={<FaUserPlus />} colorScheme="black" variant="outline" onClick={handleSignup}>
             Signup
           </Button>
         </Box>
